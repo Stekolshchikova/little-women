@@ -1,0 +1,140 @@
+font-face {
+  font-weight: 400;
+  font-family: "serif";
+  font-style: normal;
+  src:
+    local("serif"),
+    url("serift.woff") format("woff");
+} 
+html,
+h1{
+padding: 10px;
+color: white ;
+}
+body {
+  margin: 10px;
+  padding: 0;
+  font-size: 100%;
+  font-family: "serif", sans-serif;
+  color:#11301 ;
+  background-color: #719451;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #c0392b;
+}
+
+code {
+  padding: 0.2em 0.4em;
+  font-weight: bold;
+  color: #c0392b;
+  background-color: white;
+  box-shadow: 0 0 2px #cccccc;
+}
+
+/* Шапка */
+.page-header {
+  position: relative;
+  z-index: 5;
+  min-height: 20px;
+  padding: 20px;
+  color: lightgray;
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 20px 20px;
+  box-shadow: 0 0 5px 0 ;
+}
+
+
+.main-menu ul {
+  margin: 10px;
+  margin-left: 130px;
+  padding: 0;
+  list-style: none;
+}
+
+.main-menu li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.main-menu a {
+  color: white;
+}
+
+/* Основное содержание */
+.leftimg {
+float: left;
+padding-bottom: 30px;
+}
+main {
+margin: 10px;
+text-align: left;
+padding-left: 25px;
+padding-right: 25px;
+  min-height: 200px;
+  padding-top: 50px;
+  color: black;
+  background-color: white;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAMAAAApB0NrAAAABlBMVEX///+pqalTpKl9AAAAAnRSTlMAGovxNEIAAAAdSURBVDjLY2AAAUaG4UYxDDsfjfp91O+jfqfE7wCzpQCw/dq+qQAAAABJRU5ErkJggg==");
+
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.post {
+  margin: 0 20px;
+}
+
+.post h1 {
+  margin: 10px;
+}
+
+.post time {
+  margin-bottom: 1em;
+
+  font-size: 11px;
+  color: #999999;
+}
+
+.post .intro {
+  margin: 1em 0;
+  padding: 10px;
+  background-color:lightgray ;
+  border-radius: 5px;
+}
+
+.post .intro p {
+  margin: 0;
+}
+
+.post .content {
+  min-height: 200px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.post .content h2 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 18px;
+}
+
+/* Подвал */
+.page-footer {
+  min-height: 50px;
+  padding: 20px;
+  font-size: 14px;
+  color: black; 
+  background-color: lightgray;
+ 
+  background-repeat: repeat-x;
+  background-position: 0 0, 0 0, 0 100%, 0 100%;
+  background-size: 12px 12px;
+}
